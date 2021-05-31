@@ -11,9 +11,18 @@
 
     <artifactId>hnucloud-system</artifactId>
 
-    <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-    </properties>
+    <description>
+        system系统模块
+    </description>
+
+    <!--通用工具-->
+    <dependencies>
+
+        <dependency>
+            <groupId>com.hnu</groupId>
+            <artifactId>hnucloud-common</artifactId>
+        </dependency>
+
+    </dependencies>
 
 </project>
